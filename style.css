@@ -1,3 +1,7 @@
+body {
+    font-family: Roboto, monospace;
+}
+
 a {
     text-decoration: none;
 }
@@ -8,11 +12,24 @@ ul {
     margin: 0;
     display: flex;
     gap: 8px;
+    font-size: 18px;
+}
+
+.hero {
+    background-color: #1F2937;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
+}
+
+.header-text {
+    font-size: 24px;
+}
+
+.main-hero-text, .header-text {
+    color: #F9FAF8;
 }
 
 .main-hero {
