@@ -1,5 +1,5 @@
 body {
-    font-family: 'mononoki', monospace;
+    font-family: 'Roboto', 'mononoki', monospace;
 }
 
 a {
@@ -29,6 +29,7 @@ button {
     gap: 64px;
     padding: 128px;
     padding-top: 8px;
+    justify-content: center;
 }
 
 .header {
@@ -38,6 +39,7 @@ button {
 
 .header-text {
     font-size: 24px;
+    font-weight: bold;
 }
 
 .header-text, .main-hero-text, .placeholder {
@@ -63,7 +65,7 @@ button {
 
 .placeholder {
     display: flex;
-    flex: 1.5;
+    flex: 1;
     background-color: darkgray;
     align-items: center;
     justify-content: center;
@@ -76,4 +78,23 @@ button {
 
 .main-hero-text-secondary {
     margin-bottom: 16px;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 128px;
+    padding-top: 8px;
+    gap: 32px;
+}
+
+.information-text {
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.information-boxes {
+    align-items: center;
 }
