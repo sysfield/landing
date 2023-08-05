@@ -1,5 +1,6 @@
 body {
     font-family: 'Roboto', '';
+    margin: 0;
 }
 
 a {
@@ -46,7 +47,7 @@ button {
     font-weight: bold;
 }
 
-.header-text, .main-hero-text, .placeholder {
+button, .header-text, .main-hero-text, .placeholder, .action-text-title, .action-text-secondary, .footer {
     color: #F9FAF8;
 }
 
