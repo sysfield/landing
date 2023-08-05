@@ -19,7 +19,8 @@ button {
     background-color: #3882F6;
     border: 8px solid #3882F6;
     border-radius: 8px;
-    max-width: 128px;
+    width: 128px;
+    
 }
 
 .hero {
