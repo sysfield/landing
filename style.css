@@ -1,9 +1,10 @@
 body {
-    font-family: Roboto, monospace;
+    font-family: 'mononoki', monospace;
 }
 
 a {
     text-decoration: none;
+    color: #E5E7EB;
 }
 
 ul {
@@ -12,11 +13,22 @@ ul {
     margin: 0;
     display: flex;
     gap: 8px;
-    font-size: 18px;
+}
+
+button {
+    background-color: #3882F6;
+    border: 8px solid #3882F6;
+    border-radius: 8px;
+    max-width: 128px;
 }
 
 .hero {
     background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    padding: 128px;
+    padding-top: 8px;
 }
 
 .header {
@@ -28,10 +40,39 @@ ul {
     font-size: 24px;
 }
 
-.main-hero-text, .header-text {
+.header-text, .main-hero-text, .placeholder {
     color: #F9FAF8;
+}
+
+.header-link, .main-hero-text-secondary {
+    font-size: 18px;
+    color: #E5E7EB
 }
 
 .main-hero {
     display: flex;
+    gap: 64px;
+}
+
+.main-hero-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 1
+}
+
+.placeholder {
+    display: flex;
+    flex: 1.5;
+    background-color: darkgray;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-hero-text {
+    font-size: 48px;
+}
+
+.main-hero-text-secondary {
+    margin-bottom: 16px;
 }
